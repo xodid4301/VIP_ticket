@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>페스티벌 시월 VIP 패스</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #000;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .ticket-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .ticket-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255,255,255,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="ticket-container">
+        <h1>🎫 페스티벌 시월 VIP 패스</h1>
+        <img src="./ticket1.jpg" alt="VIP 패스 메인" class="ticket-image">
+        <img src="./ticket2.jpg" alt="VIP 혜택 상세" class="ticket-image">
+        <img src="./ticket3.jpg" alt="행사 정보" class="ticket-image">
+        <img src="./ticket4.jpg" alt="일정표" class="ticket-image">
+    </div>
+</body>
+</html>
